@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import 'features/changeCity/ViewHomeScreen.dart';
+import 'features/changeCity/viewChangeCity.dart';
+import 'features/changeItem/ViewChangeItem.dart';
 
 
 void main() => runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: ViewHomeScreen()
+        home: ViewChangeItem()
     );
   }
 }
