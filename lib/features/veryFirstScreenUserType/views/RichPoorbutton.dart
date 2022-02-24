@@ -21,7 +21,7 @@ class _RichPoorButtonState extends State<RichPoorButton> {
             padding: EdgeInsets.all(0.0),
             child: Ink(
               decoration: BoxDecoration(
-                  gradient: LinearGradient(colors: [Color(0xff374ABE), Color(0xff64B6FF)],
+                  gradient: LinearGradient(colors: [Color(0xffee0000), Color(0xff64B6FF)],
                     begin: Alignment.centerLeft,
                     end: Alignment.centerRight,
                   ),
@@ -52,7 +52,7 @@ class _RichPoorButtonState extends State<RichPoorButton> {
             padding: EdgeInsets.all(0.0),
             child: Ink(
               decoration: BoxDecoration(
-                  gradient: LinearGradient(colors: [Color(0xff374ABE), Color(0xff64B6FF)],
+                  gradient: LinearGradient(colors: [Color(0xffee0000), Color(0xff64B6FF)],
                     begin: Alignment.centerLeft,
                     end: Alignment.centerRight,
                   ),

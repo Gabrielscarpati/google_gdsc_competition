@@ -12,11 +12,13 @@ class _LogoInstitutionState extends State<LogoInstitution> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        child:SafeArea(
+        child:Center(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
            children: [
              SizedBox(
-
+               height: 200,
+               width: 200,
                child: Image(
                image: AssetImage('assetsforvfs/donate.png'),
              ),
@@ -31,7 +33,7 @@ class _LogoInstitutionState extends State<LogoInstitution> {
                  padding: EdgeInsets.all(0.0),
                  child: Ink(
                    decoration: BoxDecoration(
-                       gradient: LinearGradient(colors: [Color(0xff374ABE), Color(0xff64B6FF)],
+                       gradient: LinearGradient(colors: [Color(0xffee0000), Color(0xff64B6FF)],
                          begin: Alignment.centerLeft,
                          end: Alignment.centerRight,
                        ),

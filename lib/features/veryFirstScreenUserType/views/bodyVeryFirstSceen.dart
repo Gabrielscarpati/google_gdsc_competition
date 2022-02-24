@@ -15,7 +15,7 @@ class _BodyVeryFirstScreenState extends State<BodyVeryFirstScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.greenAccent,
+      backgroundColor: Colors.deepPurple,
       body: Column(
         mainAxisAlignment:MainAxisAlignment.center,
         children: [
